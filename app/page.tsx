@@ -222,7 +222,11 @@ export default function Component() {
       <main className="px-6 py-32 max-w-6xl mx-auto">
         <div className="text-center">
           <motion.h1
-            className="leading-tight font-normal text-black md:text-4xl mb-12 leading-8 text-xl"
+            className="leading-tight font-normal text-black md:text-4xl mb-12 text-xl sf-pro-display leading-8"
+            style={{
+              fontFamily:
+                "SF Pro Display, -apple-system, BlinkMacSystemFont, system-ui, Helvetica Neue, Arial, sans-serif",
+            }}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
