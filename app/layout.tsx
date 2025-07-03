@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     "startup accelerator, Y Combinator alternative, bootstrapped founders, pre-seed funding, startup studio, SaaS accelerator, fintech startup, edtech accelerator, healthtech startup, India startup program, Singapore startup accelerator, Europe startup studio, non-technical founders, $1M ARR",
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/svg+xml" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/favicon.ico", sizes: "32x32" },
     ],
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
     generator: 'v0.dev'
 }
